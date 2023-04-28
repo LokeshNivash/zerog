@@ -149,6 +149,10 @@ body{
     width: 100%;
 
 }
+.home{
+  background: url(images/ironman.png) no-repeat center fixed;
+  background-size: contain;
+}
 .home img{
     position: absolute;
     /* overflow: hidden; */

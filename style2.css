@@ -9,21 +9,35 @@
         height: 60px;
     }
     
-    .home img{
+    /* .home img{
         height: 100vh;
-        /* display: none; */
+        display: none;
         background: url(images/ironman.jpg)no-repeat center center fixed;
         
-        /* display: none; */
+        display: none;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         
+    } */
+
+    .home{
+        background: url(images/mobileironman.png) no-repeat center center;
+    }
+    .home .mob{
+        display: block;
+    }
+    .home .desk{
+        display: none;
+    }
+    .home .container{
+        background: url(images/mobileironman.png);
     }
     .home .title h3{
         font-size: 30px;
     }
+    
     /* .home img{
         background: url(images/ironman.jpg) no-repeat center fixed;
     } */
@@ -126,4 +140,27 @@
   .event .row1{
     margin-top: 0;
   }
+  .spcontainer .cont{
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .spcontainer .main-cont{
+    /* display: flex; */
+    flex-direction:row;
+
+  }
+  .spcontainer .card{
+    padding: 0;
+    margin: 0;
+    border-bottom: 0;
+  }
+  .spcontainer img{
+    float: center;
+    margin: auto;
+    margin-left: 53px;
+  }
+
 }
