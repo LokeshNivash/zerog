@@ -11,7 +11,7 @@
     
     /* .home img{
         height: 100vh;
-        display: none;
+        display: none;index.html
         background: url(images/ironman.jpg)no-repeat center center fixed;
         
         display: none;
@@ -24,6 +24,7 @@
 
     .home{
         background: url(images/mobileironman.png) no-repeat center center;
+        background-size: cover;
     }
     .home .mob{
         display: block;
@@ -31,9 +32,9 @@
     .home .desk{
         display: none;
     }
-    .home .container{
+    /* .home .container{
         background: url(images/mobileironman.png);
-    }
+    } */
     .home .title h3{
         font-size: 30px;
     }
@@ -163,4 +164,26 @@
     margin-left: 53px;
   }
 
+  /* ============Pricetag========== */
+  .buy-tickets{
+    padding: 10px 0;
+    background: black;
+  }
+  .prcontainer{
+    background: black;
+  }
+
+  /* ============sponser========== */ 
+  .spcontainer{
+    background: #111;
+  }
+
+  /* ============footer============= */
+  .footer-wave-svg {
+    background-color: #151414;
+  }
+  .footer-content {
+    background: #151414;
+  }
 }
+

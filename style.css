@@ -478,7 +478,7 @@ below 0px linear-gradient(transparent, transparent, #0004);
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 250px;
+	height: 300px;
 	width: 300px;
 	object-fit: cover;
 }
@@ -488,7 +488,7 @@ below 0px linear-gradient(transparent, transparent, #0004);
 #contact {
     padding: 100px 45px;
     color: #fff;
-    background: black;
+    background: #111;
     font-family: "Ubuntu", sans-serif;
   }
   .contact .title {
@@ -679,7 +679,7 @@ a {
       color: #fff;
   }
   .footer-wave-svg {
-      background-color: transparent;
+      background-color: #111;
       display: block;
       height: 30px;
       position: relative;
@@ -687,7 +687,7 @@ a {
       width: 100%;
   }
   .footer-wave-path {
-      fill: black;
+      fill: #111;
   }
   
   .footer-content {
@@ -696,6 +696,7 @@ a {
       max-width: 1230px;
       padding: 40px 15px 450px;
       position: relative;
+      background: #151414;
   }
   
   .footer-content-column {
