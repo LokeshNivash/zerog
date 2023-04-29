@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
     background: black;
     /* position: absolute; */
@@ -263,7 +266,21 @@ body{
     padding: 20px;
     border-radius: 40px;
 }
-
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  background:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  font-family:cursive;
+  box-sizing:border-box;
+}
+#more {display: none;}
 /* -=========================price tag============== */
 
 .prcontainer{
@@ -739,6 +756,9 @@ a {
   .footer-menu-list li {
       margin-top: 5px;
   }
+  .footer-content-column ul li a{
+    line-height: 2;
+  }
   
   .footer-call-to-action-description {
       color: #fffff2;
@@ -876,6 +896,7 @@ a {
       left: 172px;
       top: 7px;
       width: 50px;
+      
   }
   
   .footer-copyright {

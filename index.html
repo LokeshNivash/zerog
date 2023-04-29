@@ -57,9 +57,9 @@
 
               </div> -->
             </div>
-            <div class="home title">
+            <!-- <div class="home title">
                 <h3>A Spectacular festival of the PaRK</h3>
-            </div>
+            </div> -->
             
         </section>
 
@@ -74,10 +74,8 @@
                 </div>
                 <div class="texts">
                     <h2>WELCOME TO THE BIGGEST CULTURAL FEST</h2>
-                    <p>A war which is not the first one and the last one. Yes, we exist for an another time towards the trend making twin days(-).
-
-                      We caught to keep our ethics, As all our people, who present on our platform are so beautiful. Apart the parkians it is a ground for all our students community and for talents break the fear. Beat the gear.</p>
-                    <h2>WE CAN DO THIS ALL DAY</h2>
+                    <p>A war that is not the first one and the last one .yes, we exist for another time together the trend-making twin days(). We caught to keep our ethics, as all the people, who present on our platform are so beautiful. Apart from the parkians, it is a ground for all our student community and talents. Break the fear and Beat the gear.</p>
+                    <!-- <h2>WE CAN DO THIS ALL DAY</h2> -->
 
                 </div>
             </div>
@@ -91,12 +89,12 @@
                 <div class="title0">MAIN EVENTS</div>
                 <div class="row1">
                     <div class="card">
-                        <h2 class="title">GROOVE</h2>
+                        <h2 class="title">BEATBLITZ</h2>
                         <img src="images/dance.jpg" alt="">
                         <p> Watch as talented dancers from various colleges compete in a thrilling showcase of skill and creativity, featuring a range of dance styles. Judged by renowned professionals, the competition is fierce yet supportive.</p>
                     </div>
                     <div class="card">
-                        <h2 class="title">VOCALIZE</h2>
+                        <h2 class="title">CHORUSBATTLE</h2>
                         <img src="images/sing.jpg" alt="">
                         <p>Enjoy an exhilarating showcase of vocal prowess as talented singers from various colleges compete in a diverse range of genres. Judged by renowned musicians, the competition is intense yet supportive. Don't miss this exciting celebration of music.</p>
                     </div>
@@ -116,14 +114,15 @@
                         <p>Short film competition Experience the magic of cinema as talented filmmakers showcase their creativity and vision in a range of short films. Featuring a diverse range of genres and themes, the competition is a celebration of storytelling and filmmaking.</p>
                     </div>
                 </div>
-                <div class="row1">
+                <div class="kk" id="more" style="display: none;flex-direction:column;transition:all .3s ease;scroll-behaviour:smooth;">
+                  <div class="row1">
                     <div class="card">
                         <h2 class="title">SNAPOGRAPHY</h2>
                         <img src="images/photography.jpg" alt="">
                         <p>Join us and Explore the power of visual storytelling as talented photographers showcase their creativity and artistry through a range of captivating images. Featuring a diverse range of themes and styles, the competition is a celebration of the beauty and complexity of the world around us.</p>
                     </div>
                     <div class="card">
-                        <h2 class="title">POETIX</h2>
+                        <h2 class="title">STANZACLASH</h2>
                         <img src="images/poet.jpg" alt="">
                         <p>Poetry writing competition! We invite all aspiring poets to showcase their creativity and compete for exciting prizes. Join us and let your words come to life.Don't miss this exciting event</p>
                     </div>
@@ -143,6 +142,7 @@
                         <p>The Waste Art that celebrates creativity and sustainability. Participants are challenged to transform waste materials into beautiful works of art, showcasing their talent and commitment to reducing waste. Join us for a fun and eco-friendly competition that highlights the importance of upcycling and recycling.</p>
                     </div>
                 </div>
+                <!-- <span id="dots">...</span><span id="more"> -->
                 <div class="row1 unit">
                     <div class="card">
                         <h2 class="title">VARNAM1000</h2>
@@ -155,12 +155,12 @@
                         <p>Join us to showcase your artistic skills in creating intricate designs using henna paste. Open to all students, prizes awarded for the most creative and skillful designs. Don't miss this exciting opportunity to participate in one of the most anticipated events of the college culturals.</p>
                     </div>
                     <div class="card">
-                        <h2 class="title">VIDEOBRAWL</h2>
+                        <h2 class="title">FLICK COMP</h2>
                         <img src="images/reel.jpg" alt="">
                         <p>A thrilling event as part of our college culturals. Showcase your creativity and talent through short, engaging videos that capture the essence of your favorite themes. Join us for a chance to win exciting prizes and earn recognition as a standout reel creator!</p>
                     </div>
                     <div class="card">
-                        <h2 class="title">FACE FANTASY</h2>
+                        <h2 class="title">FACE FRESCO</h2>
                         <img src="images/Face.jpg" alt="">
                         <p>Join us for a fun and creative afternoon at the college culturals' face painting event! Express your artistic talents and transform your face into a work of art with our talented team of artists. All skill levels welcome, so come and let your creativity shine!</p>
                     </div>
@@ -169,8 +169,22 @@
                         <img src="images/cook.jpg" alt="">
                         <p>Show off your creativity and cooking skills without using fire as a cooking method. Join us for a day of culinary exploration, entertainment, and friendly competition.Don't miss this awesome celebration.</p>
                     </div>
+                  </span>
+
                 </div>
                 <div class="btnuh">30+ FUN EVENTS ARE THERE ENJOY IT </div>
+
+                </div>
+                <!-- <button onclick="myFunction()" id="myBtn">Read more</button> -->
+                <a href="javascript:showMore()" onclick="showMore()" id="link" style="display:flex;justify-content:center;background:#000;padding:15px;border-radius:7px;margin:30px 110px">view More<span style="margin-left: 20px;">&#8595;</span>
+
+                  </a>`
+
+                <!-- <div class="btn-container" style="margin:auto; height:44px; width:166.23px">
+                  <button id="toggle">Read More</button>
+                  </div> -->
+                
+                  <br>
             </div>
         </section>
 
@@ -379,8 +393,7 @@
         </p>
         <div class="icon">
           <div class="row">
-            <i class="fa-solid fa-user"></i>
-            <div class="info">
+            <i class="fa-solid fa-school"></i>            <div class="info">
               <div class="sub">Park College Of Engineering and tecknology</div>
               <!-- <div class="subtitle">Kaniyur,Coimbatore - 641 659</div> -->
             </div>
@@ -605,7 +618,7 @@
 
 
 
-
+    
      <!-- Compiled and minified JavaScript -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -615,5 +628,32 @@
 
     <script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” crossorigin=”anonymous”></script>
     <script src="script.js"></script>
+
+    <!-- <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script> -->
+    <script>
+      function showMore(){
+        //removes the link
+        document.getElementById('link').style.display="none";
+        //shows the #more
+        document.getElementById('more').style.display = "flex";
+        console.log('sasa')
+    }
+    </script>
 </body>
 </html>
