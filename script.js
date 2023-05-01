@@ -44,5 +44,9 @@ const scriptURL =
   });
 
 
+//close menu bar
 
+$('.menu ul li a').on("click", function (e) {
+  burger.click().removeClass("active");
+});
 

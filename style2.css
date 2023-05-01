@@ -197,5 +197,8 @@
     margin-top: 2px;
     margin-left: 6px;
   }
+  .footer-social-link.github{
+    margin-left: 0px;
+  }
 }
 

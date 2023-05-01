@@ -757,7 +757,7 @@ a {
       margin-top: 5px;
   }
   .footer-content-column ul li a{
-    line-height: 2;
+    line-height: 1.7;
   }
   
   .footer-call-to-action-description {
@@ -901,7 +901,7 @@ a {
   
   .footer-copyright {
       background-color: #424242;
-      color: #fff;
+      /* color: #fff; */
       padding: 15px 30px;
     text-align: center;
   }
@@ -913,8 +913,8 @@ a {
   }
   
   .footer-copyright-text {
-    color: #fff;
-      font-size: 13px;
+    /* color: #fff; */
+      font-size: 16px;
       font-weight: 400;
       line-height: 18px;
       margin-bottom: 0;
@@ -922,9 +922,16 @@ a {
   }
   
   .footer-copyright-link {
-      color: #fff;
+      /* color: #fff; */
+      font-size: 16px;
+
       text-decoration: none;
   }
+
+  .footer-copyright-link a{
+     color: crimson;
+  }
+  
   
   
   
