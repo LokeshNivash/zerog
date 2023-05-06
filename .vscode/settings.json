@@ -1,0 +1,18 @@
+{
+    "sshfs.configs": [
+
+
+
+        {
+            "root": "/public_html",
+            "host": "89.117.157.184",
+            "port": 21,
+            "username": "u396728191",
+            "password": "Zerog2023@",
+            "name": "zerog"
+        }
+    ],
+    "sshfs.configpaths": [
+
+    ]
+}
